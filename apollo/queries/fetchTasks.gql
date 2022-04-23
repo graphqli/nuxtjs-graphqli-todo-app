@@ -1,0 +1,11 @@
+query tasks {
+  tasks {
+    data {
+      name
+      progress
+      description {
+        text
+      }
+    }
+  }
+}
